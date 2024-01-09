@@ -148,7 +148,7 @@
     padding-bottom: 48px;
 }
 
-.party-text>a {
+.party-text>button {
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -159,6 +159,12 @@
     text-transform: uppercase;
     text-decoration: none;
     margin-left: 32px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    cursor: pointer;
+}
+.party-text>button:hover {
+    color: #F00;
 }
 
 .party-img {
@@ -562,13 +568,17 @@
     justify-content: space-between;
 }
 
-.footer .copyright p {
+.footer .copyright p ,a {
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+.footer .copyright a {
+    text-decoration: none;
+
 }
 
 /* footer ends */
