@@ -210,8 +210,11 @@
     text-transform: uppercase;
     border: none;
     margin-top: 48px;
+    cursor: pointer;
 }
-
+.party-time>button:hover {
+    background: rgb(221, 1, 1);
+}
 .red {
     color: #FF0000;
 }
